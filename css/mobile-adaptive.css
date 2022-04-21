@@ -1,0 +1,23 @@
+@media (max-width: 1339px) {
+    .idc-section {
+        max-width: 100%;
+        min-width: 100%;
+    }
+    .idc-container {
+        max-width: 930px;
+    }
+
+    /* *****head**** */
+}
+@media (max-width: 1019px) {
+    .idc-container {
+        max-width: 610px;
+    }
+}
+@media (max-width: 699px) {
+    .idc-container {
+        max-width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
