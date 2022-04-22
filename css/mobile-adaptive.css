@@ -8,10 +8,317 @@
     }
 
     /* *****head**** */
+    .idc-head .idc-h2 {
+        max-width: 890px;
+        margin-top: 60px;
+    }
+    .idc-video-wrapper {
+        margin-top: 33px;
+    }
+    .idc-item-1 {
+        left: 0%;
+        bottom: 20%;
+    }
+    .idc-item-2 {
+        left: 13%;
+        bottom: 42%;
+    }
+    .idc-item-3 {
+        right: 24%;
+        top: 57%;
+    }
+    .idc-item-4 {
+        right: 16%;
+        bottom: 21%;
+    }
+    .idc-item-5 {
+        right: 4%;
+        top: 46%;
+    }
+
+    /* *****about**** */
+    .idc-about .idc-text-block {
+        max-width: 682px;
+    }
+    .idc-about .idc-text-2 {
+        margin-top: 10px;
+    }
+    .idc-about .idc-h3 + .idc-text-2 {
+        margin-top: 40px;
+    }
+    .idc-about .idc-man {
+        width: 249px;
+        top: unset;
+        bottom: 80px;
+    }
+
+    /* *****counts**** */
+
+    .idc-counts .idc-container {
+        padding-top: 100px;
+        padding-bottom: 220px;
+    }
+    .idc-count-1 {
+        left: 6.5%;
+        top: 29%;
+    }
+    .idc-count-2 {
+        right: 0%;
+        top: 34%;
+    }
+    .idc-count-3 {
+        left: 0%;
+        top: 58%;
+        max-width: 385px;
+    }
+    .idc-count-4 {
+        right: 2%;
+        top: 62%;
+        max-width: 332px;
+    }
+
+    /* *****projects**** */
+    .idc-projects .idc-container {
+        height: 1211px;
+        padding-top: 80px;
+        padding-bottom: 0;
+    }
+    .idc-projects .idc-man {
+        top: unset;
+        bottom: 80px;
+        right: 6%;
+    }
+
+    /* *****team**** */
+    .idc-team .idc-container {
+        padding-bottom: 60px;
+    }
+    .idc-team .idc-text-block {
+        max-width: 640px;
+    }
+    .idc-team .idc-h3 + .idc-text-2 {
+        margin-top: 60px;
+    }
+    .idc-team .idc-img {
+        width: 340px;
+        top: 235px;
+    }
+
+    /* *****pluses**** */
+
+    /* .idc-pluse {
+        width: 33.33%;
+        margin-left: 0;
+    }
+    .idc-pluse .idc-text-3 {
+        max-width: 289px;
+    }
+    .idc-pluse:nth-child(4) .idc-text-3 {
+        max-width: 254px;
+    }
+    .idc-pluse:nth-child(6) .idc-text-3 {
+        max-width: 326px;
+    } */
+    .idc-pluse {
+        width: 285px;
+        margin-left: 37px;
+    }
 }
 @media (max-width: 1019px) {
     .idc-container {
         max-width: 610px;
+    }
+
+    .idc-h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .idc-h2 {
+        font-size: 25px;
+        line-height: 29px;
+    }
+    .idc-h3 {
+        font-size: 25px;
+        line-height: 29px;
+    }
+    .idc-h4 {
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .idc-text-1 {
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .idc-text-2 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .idc-text-3 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .idc-text-3b {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    /* *****head**** */
+    .idc-head .idc-container {
+        padding-top: 40px;
+        padding-bottom: 80px;
+    }
+    .idc-logo {
+        width: 274px;
+    }
+    .idc-head .idc-h2 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-top: 50px;
+        max-width: 610px;
+    }
+    .idc-video-wrapper {
+        margin-top: 45px;
+        width: 158px;
+    }
+    .idc-diamond {
+        width: 94px;
+    }
+    .idc-monitor {
+        width: 42px;
+    }
+    .idc-items > img {
+        width: 100%;
+    }
+    .idc-item-1 {
+        left: 7%;
+        bottom: 20%;
+        width: 54px;
+    }
+    .idc-item-2 {
+        left: 15%;
+        bottom: 34%;
+        width: 36px;
+    }
+    .idc-item-3 {
+        right: 24%;
+        top: 66%;
+        width: 19px;
+    }
+    .idc-item-4 {
+        right: 16%;
+        bottom: 13%;
+        width: 31px;
+    }
+    .idc-item-5 {
+        right: 3%;
+        top: 57%;
+        width: 52px;
+    }
+
+    /* *****about**** */
+    .idc-about .idc-container {
+        height: 690px;
+    }
+    .idc-about .idc-man {
+        bottom: 50px;
+    }
+
+    /* *****counts**** */
+
+    .idc-counts .idc-container {
+        padding-bottom: 230px;
+    }
+    .idc-counts .idc-center {
+        width: 315px;
+    }
+    .idc-count-1 {
+        left: 8.5%;
+        top: 20%;
+    }
+    .idc-count-2 {
+        right: 0%;
+        top: 16%;
+    }
+    .idc-count-3 {
+        left: 0%;
+        top: 52%;
+        max-width: 236px;
+    }
+    .idc-count-4 {
+        right: 0%;
+        top: 62%;
+        max-width: 236px;
+    }
+
+    /* *****projects**** */
+    .idc-projects .idc-container {
+        height: 890px;
+    }
+    .idc-projects .idc-h3 {
+        max-width: 535px;
+    }
+    .idc-projects .idc-buttons-block {
+        margin-top: 40px;
+    }
+    .idc-projects .idc-button-wrapper {
+        margin-top: 10px;
+        padding: 11px 20px;
+    }
+    .idc-projects .idc-button-wrapper:nth-child(5) {
+        max-width: 393px;
+    }
+    .idc-projects .idc-man {
+        width: 261px;
+        bottom: 80px;
+        right: 10%;
+    }
+
+    /* *****team**** */
+    .idc-team .idc-text-block {
+        max-width: 385px;
+    }
+    .idc-team .idc-img {
+        width: 225px;
+        top: 190px;
+        left: -10px;
+    }
+    /* *****slider**** */
+    .idc-slider .idc-img {
+        width: 250px;
+    }
+    .idc-slider .idc-container {
+        height: 350px;
+    }
+    /* *****pluses**** */
+    .idc-pluses .idc-h3 {
+        max-width: 423px;
+    }
+    .idc-pluses .idc-pluses-block {
+        margin-top: 35px;
+    }
+    .idc-pluse {
+        margin-top: 25px;
+        width: calc(50% - 25px);
+        margin-left: 50px;
+    }
+    .idc-pluse:nth-child(2n + 1) {
+        margin-left: 0px;
+    }
+    .idc-pluse:nth-child(2n),
+    .idc-pluse:nth-child(4) {
+        margin-left: 50px;
+    }
+    .idc-pluse .idc-text-3 {
+        max-width: 95%;
+    }
+    .idc-pluse:nth-child(6) .idc-text-3 {
+        max-width: 95%;
+    }
+    .idc-pluses .idc-text-2 {
+        max-width: 592px;
+    }
+    .idc-pluse-img {
+        width: 40px;
     }
 }
 @media (max-width: 699px) {
@@ -20,4 +327,216 @@
         padding-left: 15px;
         padding-right: 15px;
     }
+
+    .idc-h1 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .idc-h2 {
+        font-size: 25px;
+        line-height: 29px;
+    }
+    .idc-h3 {
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .idc-h4 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .idc-text-1 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .idc-text-2 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .idc-text-3 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    /* *****head**** */
+    .idc-head .idc-container {
+        padding-top: 25px;
+        padding-bottom: 77px;
+    }
+
+    .idc-logo {
+        width: 39.4vw;
+    }
+
+    .idc-head .idc-h2 {
+        font-size: 18px;
+        line-height: 22px;
+        margin-top: 30px;
+    }
+    .idc-video-wrapper {
+        margin-top: 35px;
+        width: 33vw;
+    }
+    .idc-diamond {
+        width: 14vw;
+        left: -15%;
+        top: 48%;
+    }
+    .idc-monitor {
+        width: 9vw;
+        right: -2%;
+        top: 5%;
+    }
+    .idc-items > img {
+        width: 100%;
+    }
+    .idc-item-1 {
+        left: 11%;
+        bottom: 17%;
+        width: 11vw;
+    }
+    .idc-item-2 {
+        left: 19%;
+        bottom: 36%;
+        width: 6vw;
+    }
+    .idc-item-3 {
+        right: 23%;
+        top: 67%;
+        width: 5vw;
+    }
+    .idc-item-4 {
+        right: 13%;
+        bottom: 18%;
+        width: 7vw;
+    }
+    .idc-item-5 {
+        right: 9%;
+        top: 54%;
+        width: 9vw;
+    }
+    /* *****about**** */
+    .idc-about .idc-container {
+        padding-top: 40px;
+        padding-bottom: 178px;
+    }
+    .idc-about .idc-h3 + .idc-text-2 {
+        margin-top: 30px;
+    }
+    .idc-about .idc-man {
+        width: 52vw;
+        bottom: 21px;
+        right: 9%;
+    }
+    /* *****counts**** */
+    .idc-counts .idc-container {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .idc-counts .idc-center {
+        width: 70vw;
+    }
+    .idc-count {
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin-top: 20px;
+        max-width: 100%;
+    }
+
+    /* *****projects**** */
+    .idc-projects .idc-container {
+        height: auto;
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+    .idc-projects .idc-h3 {
+        max-width: 445px;
+    }
+    .idc-projects .idc-buttons-block {
+        margin-top: 25px;
+        width: 100%;
+    }
+    .idc-projects .idc-button-wrapper {
+        width: 100%;
+        margin-right: 0;
+    }
+    .idc-projects .idc-button-wrapper:nth-child(5) {
+        max-width: 100%;
+    }
+    .idc-projects .idc-man {
+        position: relative;
+        width: 48vw;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin-left: auto;
+        margin-top: 27px;
+    }
+
+    /* *****team**** */
+    .idc-team .idc-container {
+        /* padding-top: 155px; */
+        padding-top: 45vw;
+        padding-bottom: 50px;
+    }
+    .idc-team .idc-text-block {
+        max-width: unset;
+        margin-left: 0;
+    }
+    .idc-team .idc-img {
+        top: 67px;
+        left: unset;
+        right: 12px;
+        /* width: 121px; */
+        width: 38vw;
+    }
+    .idc-team .idc-h3 + .idc-text-2 {
+        margin-top: 30px;
+    }
+
+    /* *****pluses**** */
+
+    .idc-pluses .idc-container {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .idc-pluses .idc-h3 {
+        max-width: 84%;
+    }
+    .idc-pluses .idc-pluses-block {
+        margin-top: 15px;
+    }
+    .idc-pluse {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .idc-pluse:nth-child(2n),
+    .idc-pluse:nth-child(4) {
+        margin-left: 0;
+    }
+    .idc-pluse .idc-text-3 {
+        max-width: 90%;
+    }
+    .idc-pluses .idc-text-2 {
+        margin-top: 40px;
+    }
+
+    /* *****footer**** */
+    .idc-footer .idc-container {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .idc-footer .idc-h4 {
+        max-width: 245px;
+    }
+    .idc-footer .idc-blue:nth-child(2)::before,
+    .idc-footer .idc-blue:last-child::before{
+        border-radius: 30px;
+        width: calc(100% + 7px);
+    }
+    
 }
