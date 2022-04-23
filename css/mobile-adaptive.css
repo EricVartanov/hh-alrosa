@@ -267,6 +267,12 @@
     .idc-projects .idc-button-wrapper:nth-child(5) {
         max-width: 393px;
     }
+
+    .idc-burger__item {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
     .idc-projects .idc-man {
         width: 261px;
         bottom: 80px;
@@ -284,10 +290,10 @@
     }
     /* *****slider**** */
     .idc-slider .idc-img {
-        width: 250px;
+        width: 260px;
     }
     .idc-slider .idc-container {
-        height: 350px;
+        height: 270px;
     }
     /* *****pluses**** */
     .idc-pluses .idc-h3 {
@@ -475,7 +481,13 @@
         margin-left: auto;
         margin-top: 27px;
     }
-
+    .idc-projects .idc-button-wrapper {
+        border-radius: 15px;
+    }
+    .idc-burger {
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
     /* *****team**** */
     .idc-team .idc-container {
         /* padding-top: 155px; */
@@ -534,9 +546,8 @@
         max-width: 245px;
     }
     .idc-footer .idc-blue:nth-child(2)::before,
-    .idc-footer .idc-blue:last-child::before{
+    .idc-footer .idc-blue:last-child::before {
         border-radius: 30px;
         width: calc(100% + 7px);
     }
-    
 }
