@@ -88,10 +88,12 @@
         bottom: 80px;
         right: 6%;
     }
-
+.idc-projects .idc-h3{
+    max-width: 730px;
+}
     /* *****team**** */
     .idc-team .idc-container {
-        padding-bottom: 60px;
+        padding-bottom: 30px;
     }
     .idc-team .idc-text-block {
         max-width: 640px;
@@ -492,7 +494,7 @@
     .idc-team .idc-container {
         /* padding-top: 155px; */
         padding-top: 45vw;
-        padding-bottom: 50px;
+        padding-bottom: 20px;
     }
     .idc-team .idc-text-block {
         max-width: unset;
@@ -509,6 +511,13 @@
         margin-top: 30px;
     }
 
+    /* *****slide**** */
+
+    .swiper-slide:hover {
+        transition: none;
+        scale: 1;
+        filter: none;
+    }
     /* *****pluses**** */
 
     .idc-pluses .idc-container {
