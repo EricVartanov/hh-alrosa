@@ -476,7 +476,7 @@ body {
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
-    scale: 1.25;
+    transform: scale(1.25);
     z-index: 5;
     -webkit-filter: drop-shadow(0px 1px 4px rgba(34, 129, 176, 0.5));
     filter: drop-shadow(0px 1px 4px rgba(34, 129, 176, 0.5));
